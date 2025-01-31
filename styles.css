@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a3d8f4; /* Azul celeste */
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Estrellitas */
+    background-repeat: repeat;
+    background-size: 30px 30px; /* Estrellas pequeñas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff477e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff265f;
+}
+
+#images-container {
+    margin-top: 20px;
+}
+
+#images-container img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+}
